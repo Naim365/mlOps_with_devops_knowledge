@@ -1,0 +1,11 @@
+commit reset korar way
+
+2ta useful command
+
+commit undo
+
+git reset HEAD~1  (last 1 commit undo korve) 2 dile last 2nd commit korve
+
+git status
+
+git log

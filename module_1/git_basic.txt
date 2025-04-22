@@ -22,6 +22,8 @@ git commit convention
 
 1st step
 
+git commit then enter
+
 complex commit e description add kora enter diea
 
 2nd step

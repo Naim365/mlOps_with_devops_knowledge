@@ -1,0 +1,38 @@
+ssh key set up  
+
+locally genarate korar jonno ai command use
+
+ssh-keygen -t rsa -b 4096 -C "shahjadanaimuddin@gmail.com"
+
+Aita ache kotai ta dekar jonno root folder e javo
+
+cd .ssh
+
+id_rsa (private key aita) and id_rsa.pub  (aita public key) dekvo
+
+cat id_rsa.pub  copy kore githb add ssh key te add korvo
+
+Akn test korvo
+
+ssh -T git@github.com
+Hi Naim365! You've successfully authenticated, but GitHub does not provide shell access.
+
+git remote  ( Aita akta address ai address save kore asho)
+
+git remote enter
+
+git remote -v
+
+github e repo create kora then
+
+git remote add origin url
+
+git remote remove origin 
+
+git pull and fetch ( tene niea asha)
+
+git fetch origin main/master  (remote theke niea ashe but apply kore na and then main bucket e add kora)
+
+git log 
+
+git pull origin main/master  (fetch kore apply kore de)
