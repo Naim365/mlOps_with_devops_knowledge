@@ -1,0 +1,37 @@
+Sunday
+Monday
+Wednesday
+ 
+9.30   conceptual class Friday 9.00 10.30
+
+Course support Everyday 7.30pm, 11pm 5 din 2bela  (sunday off) friday conceptual class
+
+
+Technical support 
+4pm to 5pm 9-10pm
+
+Fb, google, discord support
+
+
+
+Test server stage build  ci/cd automation 
+
+Backup script, 
+
+Consistency version == Environmental || Same infra excate replica version 22 hole 22 lagve
+ansible/ teraform for consistencty tools
+Aita jonno automation laghe.
+Package dependency version dependent
+
+Site relaibility engineer (SRE)
+
+Automation engineer
+Platform engineer
+Kbm ubuntu os 22.04 or 24.04
+
+
+
+
+
+
+

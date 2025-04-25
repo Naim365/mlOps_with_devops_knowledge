@@ -1,0 +1,77 @@
+
+bash
+CopyEdit
+cd /path/to/your/project
+
+Set the new email locally for that repo:
+
+
+git config user.email "your-other-email@example.com"
+
+ls ~/.ssh
+ cat ~/.ssh/id_rsa.pub
+
+ssh-keygen -t rsa -b 4096 -C "shahjadanaimuddin@gmail.com"
+
+
+nano ~/.ssh/config
+
+
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsal
+
+
+
+Test ssh -T git@github.com
+
+git config --global user.email "shahjadanaimuddin@gmail.com"
+git config --global user.name "Shahjada Naim Uddin"
+
+
+
+Email
+Key file
+
+
+shahjada.uddin@technonext.com
+~/.ssh/id_rsa_old
+
+
+shahjadanaimuddin@gmail.com
+~/.ssh/id_rsa
+
+
+Follow this step
+/home/shahjada-naim-uddin/.ssh
+
+Touch id_rsa_gmail and id_rsa_gmail.pub file create
+
+And then run this command
+
+ssh-keygen -t rsa -b 4096 -C "shahjadanaimuddin@gmail.com"
+
+Save tocation set upPath 
+ Type a unique name like this:
+/home/yourname/.ssh/id_rsa_gmail
+
+
+git remote set-url origin git@github.com-personal:Naim365/mlOps_with_devops_knowledge.git
+
+git config user.name "Shahjada Naim Uddin"
+git config user.email "shahjadanaimuddin@gmail.com"
+
+nano ~/.ssh/config
+Host github.com-personal
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_gmail
+  IdentitiesOnly yes
+
+
+
+Run this command to lock down the permissions:
+bash
+CopyEdit
+chmod 600 ~/.ssh/id_rsa_gmail

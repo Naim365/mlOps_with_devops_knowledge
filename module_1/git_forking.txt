@@ -1,0 +1,31 @@
+Forking (onno project regulary connection maintain kora jai)
+
+fork create from github
+
+
+code ta localy niea asha ssh theke link copy then clone
+
+git clone ssh-url (amar version clone hove)
+
+git remote -v
+
+caile multiple remote add korthe pari
+
+git remote add nameHabib link git@
+git remote add rizwan link git@
+
+git remote -v
+
+caile differnt remote e push korthe pari
+
+git push rizwan master
+
+git remote remove rizwan caile dlete kora jave
+
+
+contribute korthe caile nijer branch e push kore then pull request dewa
+
+ git fetch rizwan master
+ git rebase rizwan/master   (fetch/rebase pull kore niea ashe  apply kore)
+
+ rebase e bool hole reset kora

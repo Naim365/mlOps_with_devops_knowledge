@@ -1,0 +1,30 @@
+It's wow if i want add specific commit in 
+
+final or master branch just 
+
+from commited branch commit key copy
+
+git log
+
+and checkout final or master branch
+
+git cherry-pick 30bdffdffee97db1b4618ddce360fa0a99e097d7
+
+git stash  (save working directory)
+
+git checkout other brance
+
+git stash pop ( abar cole asve)
+
+git stash list
+
+Amra caile 1 ta 1ta kore stash e push korthe parvo
+
+stash{0} aibabe list akare dekave
+stash{1}
+
+git stash apply stash@{1}
+
+muliple brance e stash korthe parvo
+
+1ta branch ar stash r akta brance use

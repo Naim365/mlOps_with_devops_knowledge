@@ -1,0 +1,50 @@
+git config
+git config -l
+
+
+ls -a  (see inside ) if not run git init
+
+Cd .git 
+
+git add .
+git add file name
+git reset
+git status
+Red color (git ack korche na green color hole se acknlodege kore)
+
+git log (history dekha jai)
+
+git checkout -b "new_branch_name"
+
+git branch
+
+git commit convention
+
+1st step
+
+git commit then enter
+
+complex commit e description add kora enter diea
+
+2nd step
+
+sobsomi present tense use kora  very good commit readable
+
+
+git alias add  (Means shortcut add)
+
+git config --global alias.co 'checkout'   (checkout)
+
+vim file_name
+
+cat file_name
+
+
+
+If you're currently on the branch you want to rename:
+
+git branch -m new-branch-name
+
+
+git branch -m old-branch-name new-branch-name
+

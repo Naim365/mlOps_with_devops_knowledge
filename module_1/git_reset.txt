@@ -1,0 +1,22 @@
+commit reset korar way
+
+2ta useful command
+
+commit undo
+
+1st
+
+git reset HEAD~1  (last 1 commit undo korve) 2 dile last 2nd commit unstage korve
+
+
+2nd step  (jekan theke suro oikane reset koer dive)
+
+git reset --hard origin/file_name   (Remote theke niea overwrite )
+
+git status
+
+git log
+
+rename
+
+mv file_name update_file_name.txt

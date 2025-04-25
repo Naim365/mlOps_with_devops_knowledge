@@ -1,0 +1,6 @@
+git remote add naim  githubSsh_url
+
+git remote
+git fetch naim branch_name
+
+git checkout branch_name
