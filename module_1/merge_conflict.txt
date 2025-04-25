@@ -1,0 +1,31 @@
+<<<<<<< HEAD
+const message = "This is the current change.";
+=======
+const message = "This is the incoming change.";
+>>>>>>> feature-branch
+
+🔹 <<<<<<< HEAD
+This marks the "current change" — it’s the code that exists on the branch you're on (usually your local branch, like main or develop).
+
+🔹 =======
+This line separates the two conflicting changes.
+
+🔹 >>>>>>> feature-branch
+This marks the "incoming change" — it's the code coming from the branch you're trying to merge into your current branch (like a feature, bugfix, or hotfix branch).
+
+current change (Already git ar kach jeta ache)
+
+incomming (Ami jeta change kochi)
+
+git add .
+
+git rebase --continue
+
+
+git fetch origin main
+
+git rebase origin/main
+
+git add .
+
+git rebase --continue

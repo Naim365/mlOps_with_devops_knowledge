@@ -1,0 +1,15 @@
+github cli tool
+
+gh pr 
+
+sudo apt update
+sudo apt install gh
+
+gh auth login
+
+gh --help
+
+gh pr --help
+
+gh pr view 1
+

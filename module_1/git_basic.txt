@@ -39,3 +39,12 @@ vim file_name
 
 cat file_name
 
+
+
+If you're currently on the branch you want to rename:
+
+git branch -m new-branch-name
+
+
+git branch -m old-branch-name new-branch-name
+

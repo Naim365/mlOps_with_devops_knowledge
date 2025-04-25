@@ -1,0 +1,9 @@
+git log
+
+remote na thakle deep trouble porle
+
+git reflog  (git activity track)
+
+git push origin branch_name -f (force korthe hoi)  reset korle
+
+git reset HEAD{4}
