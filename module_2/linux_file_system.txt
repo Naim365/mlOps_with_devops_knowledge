@@ -1,0 +1,23 @@
+you can find your default terminal by checking the value of the $SHELL environment variable.
+
+echo $SHELL
+
+/usr/bin/zsh
+
+To make Bash your default terminal shell
+
+chsh -s /bin/bash
+
+restart computer 
+
+go to root directory
+
+cd /
+
+bin  boot  dev  etc  home  lib  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+
+bin -- binary pwd (binary related file gulo thake)
+
+ls bin | grep pwd
+
+then see this file

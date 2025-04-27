@@ -1,0 +1,325 @@
+# 3 Linux terminal in Dept
+
+## **Things to do after installing ubuntu**
+
+sudo apt update
+
+sudo apt full-upgrade
+
+virtual box and click device and install
+
+sudo bash BBoxlinuxAdditions.run
+
+reboot
+
+## Linux terminal man pages
+
+man ls
+
+type df
+
+type rm 
+
+type apt
+
+type cd
+
+type alias
+
+type umask
+
+help cd
+
+help alias
+
+rm —help
+
+cd —help
+
+ls —help
+
+ifconfig (first install net-tools)
+
+sudo apt install net-tools  (ubutu)
+
+sudo dnf install net-tools (centos)
+
+ifconfig
+
+man -k ifconfig
+
+man -k uname
+
+man -k “copy files”
+
+apropos ifconfig
+
+apropos uname
+
+man arch
+
+## Linux Command Structure
+
+ping -c 8.8.8.8
+
+picg -c 1 127.0.0.1  
+
+ls -l  /etc/
+
+ls -all (hidden file as well)
+
+ls -a (similar)
+
+ls -l -all -h /var
+
+ls  -lh -all /var/
+
+df  (display information)
+
+df -h
+
+df -h -i (two options)
+
+df -hi
+
+df -hi -all
+
+## Mastering the Terminal - Keyboard Shortcuts
+
+ctrl + l ( clear screen)
+
+clear
+
+ctrl + D (close bash shell)
+
+exit
+
+Ctrl + A (move cursor beginning of the line)
+
+Ctrl + E (cursor move end of the line)
+
+Clrl + U ( backspace remove all)
+
+Ctrl + C (stop process)
+
+ping 8.8.8.8 (stop) ctrl [c](https://www.notion.so/c-12a5d763d2e88076b3cdf7812dae10f2?pvs=21) 
+
+ctrl + G ( pause) and again bg %1  ( same running )
+
+## Mastering the Bash History
+
+cat .bash_history
+
+echo $HISTFILESIZE
+
+history RUN WHICH COMMAND  !17  !20  ( just wow)
+
+echo $HISTSIZE
+
+who  or !!
+
+ctrl + R ( search history by search)
+
+history -d 117 (remove history coomand)
+
+history -c ( remove all command)
+
+sudo su ( temporary root iin a terminal)
+
+passwd ( change command)
+
+## Linux terminal tab key
+
+Use tab command for auto complete
+
+## Tarminal Record date in history
+
+HISTTIMEFORMAT = “%d/%m/%y %t”
+
+Then history command show date and time this format
+
+Which time this command execute w can find out
+
+echo “HISTTIMEFORMAT=\“%d/%m/%y %T\””  >> .bashrc
+
+cat .bashrc
+
+## Root vs non -privilized user
+
+temporarly sudo su (substitude user)
+
+sudo use on ubuntu  ( in centos use wheel)
+
+id
+
+sudo su -
+
+temporary user start $ sudo su
+
+pwt
+
+root  start # 
+
+sudo groupadd myadmin
+
+sudo useradd john
+
+5 mint cash not need password
+
+sudo -v ( update 5 mint)
+
+sudo -k (required password 5 mint gone)
+
+sudo passwd root old passwd ( enter new password ) for update
+
+su (root passrod)
+
+ls /root/
+
+ls  /
+
+## Linux terminal running without trace
+
+wget paste link (file save locall user home directory)
+
+echo $HISTCONTROL  ( IN CENTOS HISTCONTROL= ignoredups) duplicate not seeing in history command line
+
+in centos write echo “HISTCONTROL= ignoreboth” >> .bashrc
+
+cat .bashrc This command append of this file
+
+## Terminals, Consoles, Shells and Commands
+
+ctrl + altr +t ( open shorcut terminal)
+
+ps  ( which shell use bash or others)
+
+sudo apt update && sudo apt install terminator   (its better for default terminal)
+
+# 5 The Linux File System
+
+## Absolute vs. Relative Paths. Walking through the File System (pwd, cd, tree)
+
+single . current directory
+
+double .. parrent directory
+
+/ absolute path start with forward slash
+
+cd /home/student/Desktop both are same cd ~/Desktop/
+
+ls -a (hiden file show as well)
+
+ls -la
+
+sudo apt install tree
+
+tree 
+
+tree /etc
+
+tree -d /etc
+
+tree -f /etc
+
+tree -f ~ 
+
+## File system coma redirection
+
+ls -l
+
+ls -l > ls.txt
+
+ls
+
+cat ls.txt
+
+ifconfig
+
+ifconfig > ls.txt
+
+cat ls.txt
+
+ls -l > output.txt
+
+ifconfig >> output.txt
+
+cat output.txt  (append)
+
+who >> users.txt
+
+ls
+
+cat users.txt
+
+tty
+
+ifconfig >  /dev/pts/0
+
+echo “hello!” ifconfig >  /dev/pts/0
+
+tail -3 /etc/shadow
+
+tail -3 /etc/shadow  2> error.txt
+
+cat error.txt
+
+tail -3 /etc/shadow  2>> error.txt
+
+dsfa
+
+dsfa 2 >> error.txt
+
+tail -n /etc/passwd /etc/shadow
+
+tail -n /etc/passwd /etc/shadow > output.txt
+
+tail -n /etc/passwd /etc/shadow > output.txt 2> error.txt
+
+ls
+
+cat output.txt
+
+cat error.txt
+
+For statndard output command
+
+tail -n 2 /etc/passwd /etc/shadow > output.txt 2>&1  
+
+cat output.txt
+
+tail -n 2 /etc/passwd /etc/shadow > output.txt 2>1  
+
+cat 1 (& important)
+
+ifconfig | grep ether
+
+ifconfig | grep ether   > mac.txt (save this)
+
+cat mac.txt (output of the comment save it file)
+
+ifconfig | grep ether | cut -d “ ”  -f10 > mac.txt (cut save this)
+
+cat mac.txt
+
+cat /etc/passwd
+
+cut -d “:” -f1 /etc/passwd   (Wow commanD)
+
+cut -d “:” -f3 /etc/passwd   (Wow commanD)
+
+who > users.txt
+
+ifconfig | grep ether |tee   > mc.txt (save this)
+
+who | tee -a m.txt
+
+cat m.txt
+
+uname -r
+
+uname -r | tee -a mac.txt carnel.txt (save two file)
+
+cat carnel.txt
+
+cat.mac.txt

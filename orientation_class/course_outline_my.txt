@@ -1,0 +1,223 @@
+Step 1: Linux Fundamentals
+
+- CLI (BASH)
+- Process & Permissions : ps, kill, chmod
+- package management : apt, yum
+- text editors : vim
+
+Step 2: Networking & Sequrity concepts  -- (wireshark tool - Network analyger tool)
+
+- OSI, TCP,/IP, models
+- Different protocols : http, https, ssh etc
+- IP addresses, subnetting, DNS
+- Network issues
+- firewalls, proxy servers
+- 
+
+Going forward: load balancers & caching servers.
+
+Step 3 : Scripting ( Programming language)
+
+```
+Popular options: Python, Ruby, Golang
+
+- Syntax
+- Useful libraries
+- File handeling
+- Writing automation scripts
+
+```
+
+Example script -   clone job, backup automation,  system monitoring,
+
+Step 4 : Version Control (git)
+- imp. Git command: init, clone, add, comit, push, pull, merge, rebas
+- concept of branching
+- merging and merge conflict resolution
+- Working with remote repositories
+
+Step 5 : Cloud
+
+```
+Popular options: AWS, Azure, GCP
+
+- configure & manage servers data (EC2, S3, RDS)
+- Manage users, groups & roles (IAM)
+-setup & manage isolated netwoks (VPC)
+
+```
+
+Step 6 : Microservices & Containers
+
+```
+Popular option : Docker
+
+- overview of virtualization and containerization
+- docker images & managing containers
+- docker commands : run, ps, build, etc
+- writing docker files
+- using docker compose
+
+```
+
+Step 7 : CI/ CD
+
+```
+Popular options : Jenkins, Github Actions CI/CD, GITHUB CI, CIRCLE CI, Travis CI
+
+```
+
+Step 8 : Infrastructure as Code (Iac)
+
+```
+    Provisioning : Terraform , Alt: Pulumi
+
+    Configuring : Ansible, Alt : Puppet, chef
+
+```
+
+Step 9 : Orchestration & Management
+
+```
+   Popular option : Kubernetes
+
+   - creating & managing k8s clusters
+   - deployment of applications on k8s
+   -k8s commands : apply, build, delete etc.
+
+```
+
+Step 10: Monitoring & Logging
+
+```
+Popular Option : Prometheus, Grafana
+
+Alt: ELK, Fluentd, AWS, CloudWatch
+
+```
+
+Advanced traffic management- Service Mesh,
+Smoth Communication with each other use: Istio tools use
+
+gitOps = CRUD Automating differnt operation inside ( argo cd, flux also popular)
+
+Here’s a curated list of books, websites, and resources to help you become a proficient DevOps engineer. These resources cover foundational concepts, tools, and best practices in DevOps:
+
+Books for DevOps Engineers
+
+"The Phoenix Project" by Gene Kim, Kevin Behr, and George Spafford
+
+A must-read novel that explains DevOps principles through a fictional story about IT and business transformation.
+
+"The DevOps Handbook" by Gene Kim, Jez Humble, Patrick Debois, and John Willis
+
+A practical guide to implementing DevOps practices, including CI/CD, automation, and cultural transformation.
+
+"Accelerate: The Science of Lean Software and DevOps" by Nicole Forsgren, Jez Humble, and Gene Kim
+
+Focuses on metrics, performance, and how DevOps practices improve software delivery.
+
+"Site Reliability Engineering (SRE) Book" by Google
+
+A comprehensive guide to Google’s approach to DevOps and SRE, covering scalability, reliability, and automation.
+
+"Continuous Delivery" by Jez Humble and David Farley
+
+A classic book on CI/CD pipelines, automation, and delivering software reliably.
+
+"Kubernetes Up & Running" by Kelsey Hightower, Brendan Burns, and Joe Beda
+
+A practical guide to Kubernetes, a key tool in modern DevOps.
+
+"Infrastructure as Code" by Kief Morris
+
+Explains how to manage infrastructure using code, a core DevOps practice.
+
+"Effective DevOps" by Jennifer Davis and Ryn Daniels
+
+Focuses on collaboration, culture, and tools in DevOps.
+
+Websites and Online Resources
+[DevOps.com](http://devops.com/)
+
+A hub for articles, news, and tutorials on DevOps practices and tools.
+
+AWS DevOps Blog
+
+Learn how to implement DevOps on AWS, including CI/CD, infrastructure as code, and monitoring.
+
+Google Cloud DevOps Resources
+
+Offers guides, case studies, and best practices for DevOps on Google Cloud.
+
+Microsoft Azure DevOps Documentation
+
+Official documentation and tutorials for Azure DevOps services.
+
+GitLab DevOps Learning Resources
+
+GitLab provides extensive guides on CI/CD, version control, and DevOps workflows.
+
+Red Hat DevOps Resources
+
+Focuses on open-source tools and practices for DevOps.
+
+Docker Documentation
+
+Learn containerization, a key skill in DevOps.
+
+[Kubernetes.io](http://kubernetes.io/)
+
+Official documentation and tutorials for Kubernetes.
+
+Terraform by HashiCorp
+
+Learn infrastructure as code with Terraform.
+
+[Jenkins.io](http://jenkins.io/)
+
+Official site for Jenkins, a popular CI/CD tool.
+
+Online Courses and Platforms
+Pluralsight
+
+Offers in-depth DevOps courses, including CI/CD, Docker, Kubernetes, and cloud platforms.
+
+Udemy
+
+Popular courses like "DevOps Beginners to Advanced" and "Docker and Kubernetes: The Complete Guide."
+
+Coursera
+
+Courses like "Introduction to DevOps" by IBM and "Google IT Automation with Python."
+
+Linux Academy / A Cloud Guru
+
+Focuses on cloud and DevOps skills, including AWS, Azure, and GCP.
+
+KodeKloud
+
+Hands-on labs and courses for DevOps tools like Docker, Kubernetes, Ansible, and Terraform.
+
+edX
+
+Offers DevOps courses from top universities and institutions.
+
+Hands-On Practice Platforms
+Katacoda
+
+Interactive learning environments for Docker, Kubernetes, and other DevOps tools.
+
+Play with Docker
+
+A playground to practice Docker commands and concepts.
+
+Play with Kubernetes
+
+A sandbox for learning Kubernetes.
+
+HashiCorp Learn
+
+Hands-on labs for Terraform, Vault, and Consul.
+
+- *GitHub Actions and

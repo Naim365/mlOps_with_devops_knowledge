@@ -13,3 +13,24 @@ gh pr --help
 
 gh pr view 1
 
+gh repo create my-new-repo
+
+gh repo clone username/repo-name
+
+gh issue create
+
+View Issues and Pull Requests
+
+gh issue list
+gh pr list
+
+Create a Pull Request
+gh pr create
+
+Checkout a Pull Request
+
+gh pr checkout 123
+
+Configure Aliases
+
+gh alias set co pr checkout

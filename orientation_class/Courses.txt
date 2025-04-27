@@ -1,0 +1,32 @@
+AWS ec2, s3
+
+AZURE, GCP
+
+terraform, docker, containerization
+
+ci/cd
+
+Courses list
+
+1. DevOps MasterClass 2024
+
+2. Udemy - Complete MLOps Bootcamp With 10+ End To End ML Projects 2024-10
+
+3. Udemy - Ultimate AWS Certified Solutions Architect Associate SAA-C03
+
+4. ZeroToMastery - DevOps Bootcamp- Learn Linux & Become a Linux Sysadmin
+
+5. Devops career path (Interactive care)
+
+6. AI Engineering Bootcamp: Build, Train & Deploy Models with AWS SageMaker
+
+7. DevOps Beginners to Advanced with Projects
+
+8. DevOps Projects  20 Real Time DevOps Projects 
+
+9. DevOps MasterClass: Terraform Kubernetes Ansible Docker
+
+
+ May  June, July
+
+Auguest start work 
