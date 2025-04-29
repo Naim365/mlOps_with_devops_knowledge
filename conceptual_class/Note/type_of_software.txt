@@ -1,0 +1,49 @@
+1. interpreted_software
+
+run time code execute hoi build laghe na directly run
+
+python, js, ruby, php, fastapi, django, laravel
+
+Bundled => js, react, vue.js, angular
+
+php inside composer, vendor package thake
+python virtual environment create kore kaj hoi
+
+js frontend ar framwork 
+
+2. COMPILED 
+
+c, c++, go, rust
+
+sora sori binary file pai
+
+first code ta build korthe hoi then oi code ta ke run
+
+kora jai.
+
+build environment
+file cmeq, gcp compilor laghe
+application code base compile kore 1ta file pawa jai
+
+rtefact file ta target server e sora sori run korle hoiea jai
+
+provisioning tool use -- same satge dev , production
+
+3. Bytecode
+
+java, -- jar file execute hoi theke compiled na
+
+c#, -- dll file .net, springboot
+
+Akta binary convert kore oi binary run korthe hoi
+
+inntermadotry file create kore 
+oi file ta next e run korthe
+
+4. Bundled
+
+js, react, anguler, vue.js
+
+sob file 1ta specific location e niea ashe 
+
+bundle kore 1ta macnishm ar vitore run korthe hoi

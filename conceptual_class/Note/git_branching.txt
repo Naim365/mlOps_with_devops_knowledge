@@ -1,0 +1,84 @@
+  Git Branching stratergy
+  =========================
+
+1. Main/Master --> Pull request create kore accept kore last stable code thakve bug free  Benifit (Application restore/ Server Migration)
+
+    Latest stable code (production e 1 week bug free kaj korle den stable code ta Main e merge hove)
+
+    Production ar stable code tai main e merge hove (Ec2 ai branch theke niea run korve)
+
+2. Prod/ Production || (Jekane theke user k provide korchi)
+
+   Staging (Full replica server same configuration same network, harware package and verioning same to same ) 
+
+   Load testing, Beta testing all test pass in production
+   
+    || Devlopment --> 
+3. 
+
+Branching hove feature specific
+
+Kon branch ar code kon server e jave ci/cd pipeline bole dewa jai
+
+ci/cd  --> Dev , Stage and Production
+
+3. Feature Wise branching hove
+
+Developer Feature e code push korve dev lopment branch e code push korbe niea
+
+feature theke pull request kore devlopment_branch Jave 
+
+Devlopment branch e testing hove sob tik tak thakle staging_branch merge (Oikane abar test) if ok 
+
+Then Production e merge. Production e ok pele Main e merge
+
+4. feature_taskname diea branche create kora
+
+5. Bug_fix Feature dev or stage e merge howar por bug pele 
+
+caile oi feature_taskname theke change kora jai but better approach hocche
+
+oi specific feature theke branch banavo nam hobe bug_fix_oi_specific_feature ar nam bug_fix_account
+
+bug_fix ar code pr request diea review hove then feature jave (merge hoiea test hove) if resolved ok then 
+
+6. hot_fix production kono test case baad gele or tester kuje pele
+
+production ar branch theke hot_fix create kore  then issue resolve then pull request diea
+
+production e merge korthe hove.
+
+all merge pull request diea hove rivew kora jai. easilly rollback kora jai
+
+Bit_bucket automatic create kora thake
+
+7. Chore --> Team lead, project manager 
+
+ci/cd pipeline ar file, docker file, infracture, provitioning ar file, shall script(devops ar)
+
+dependency resolve ar jonno akta folder e 
+
+util/setup/chore name branch e rakthe pari.
+
+chore vitore -- Migration, db set up file gulo raka jete pare
+
+set up vitore -- shell file, docker file 
+
+bug_fix  and hot_fix finally remove
+
+
+
+8. release
+
+Devlopment stratergy 2 types 
+
+Environment stratergy -- dev, stage, production server
+
+Release stratergy -- 3 setup
+
+relese devlopment_branch (test) -- then relese create kore -- arpor relese server e jai (2nd test)-- staging_branch (test)-- Production
+3ta step e jai
+
+proti ta release alada alada tag e or branche theke
+
+bug_fix 

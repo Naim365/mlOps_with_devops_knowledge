@@ -1,0 +1,15 @@
+Workflow
+
+1st innternal release
+
+2nd, 3rd innternal release 0.0.3 cilo
+
+ai 3 ta 1st time time staging e gele ar version hove 0.1.3  (3 bar internal release 1 bar staging release hoiease)
+
+                               2nd time dile 0.2.3
+
+Release sheet theke documentation 
+
+for production v1.2.3 
+
+specific version e rollback kora jai. Release log check kore
